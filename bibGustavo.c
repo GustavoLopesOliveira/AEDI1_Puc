@@ -37,7 +37,7 @@ int *preencherMatriz(int l, int c){
   
   for(int i = 1; i <= l; i++){
     for(int j = 1; j <= c; j++){
-      scanf("%d", array + i * l + j);
+      scanf("%d", array + i * c + j);
     }
   }
   
